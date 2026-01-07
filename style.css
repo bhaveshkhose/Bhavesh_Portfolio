@@ -94,7 +94,8 @@ header .container {
 
 header nav ul{
   display: flex;
-  gap: calc(var(--spacing-unit)*2);
+  justify-content: center;
+  gap: calc(var(--spacing-unit)*5);
   list-style: none;
 
 }
@@ -104,4 +105,37 @@ header nav ul li a{
   color: var(--text-color);
   font-weight: var(--font-weight-bold);
   padding: 0.5rem;
+}
+
+#hero{
+  min-width: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--spacing-unit)*2);
+
+}
+
+#hero .container{
+
+  text-align: center;
+
+}
+
+#hero h1 {
+  /* Make the main heading large and impactful. */
+  font-size: 3.5rem; /* ~56px */
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-unit); /* Add space below the heading */
+}
+
+#hero .hero-subtitle{
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-unit);
+  color: var(--text-color-light);
+}
+
+#hero p:last-of-type{
+  max-width: 600px;
+  margin: 0 auto;
 }
