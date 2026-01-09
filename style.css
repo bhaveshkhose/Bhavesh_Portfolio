@@ -160,7 +160,7 @@ header nav ul li a{
   content: "";
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #737476, #909393);
+  background: linear-gradient(90deg, #000000 ,#ffffff);
   display: block;
   margin: 15px auto 0;
   border-radius: 10px;
@@ -182,7 +182,7 @@ header nav ul li a{
   width: 340px;
   height: 340px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #737476, #909393);
+  background: linear-gradient(135deg,  #000000 ,#ffffff);
   padding: 6px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   transition: transform 0.4s ease;
@@ -244,4 +244,14 @@ header nav ul li a{
   .about-text {
     max-width: 100%;
   }
+}
+
+#projects{
+  padding: calc(val(--spacing-unit)*4);
+  background-color: var(--background-color);
+}
+
+#projects h2{
+  text-align: center;
+  margin-bottom: calc(var(--spacing-unit) * 3);
 }
