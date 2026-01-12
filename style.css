@@ -167,6 +167,35 @@ header nav ul li a:hover::after {
   left: 20%;
 }
 
+.menu-toggle {
+  /* Hide the hamburger button by default on larger (desktop) screens. */
+  display: none;
+
+  /* Basic button styling */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0; /* Remove default padding */
+  
+  /* Use flexbox to center the bars and manage their stacking */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 24px;
+}
+
+.menu-toggle .bar {
+  /* Style each of the three bars */
+  display: block; /* Ensure spans behave like block elements */
+  width: 100%;
+  height: 3px;
+  background-color: var(--text-color);
+  border-radius: 0px;
+  
+  /* We will add a transition here for a future animation when the menu is toggled. */
+  transition: all 0.3s ease-in-out;
+}
 
 
 .theme-switcher {
@@ -307,6 +336,19 @@ header nav ul li a:hover::after {
   #hero p:last-of-type {
     font-size: 0.95rem;
   }
+
+   header nav {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 480px) {
+ 
 }
 
 /* About Section */
