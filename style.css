@@ -599,10 +599,10 @@ header nav ul li a:hover::after {
 }
 
 
-/* Contact Section */
+/* contactFormForm Section */
 
-/* Contact Section */
-#contact {
+/* contactForm Section */
+#contactForm {
   padding: calc(var(--spacing-unit)) 0;
   background: linear-gradient(
     135deg,
@@ -612,7 +612,7 @@ header nav ul li a:hover::after {
 }
 
 /* Heading */
-#contact h2 {
+#contactForm h2 {
   text-align: center;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
@@ -620,7 +620,7 @@ header nav ul li a:hover::after {
 }
 
 /* Underline Effect */
-#contact h2::after {
+#contactForm h2::after {
   content: "";
   width: 90px;
   height: 3px;
@@ -631,7 +631,7 @@ header nav ul li a:hover::after {
 }
 
 /* Subtitle */
-#contact p {
+#contactForm p {
   text-align: center;
   margin-bottom: calc(var(--spacing-unit) * 3);
   max-width: 650px;
@@ -642,7 +642,7 @@ header nav ul li a:hover::after {
 }
 
 /* Form Container */
-#contact form {
+#contactForm form {
   max-width: 720px;
   margin: 0 auto;
   background-color: var(--surface-color);
@@ -653,7 +653,7 @@ header nav ul li a:hover::after {
 }
 
 /* Labels */
-#contact label {
+#contactForm label {
   display: block;
   font-weight: var(--font-weight-bold);
   margin-bottom: 0.4rem;
@@ -661,8 +661,8 @@ header nav ul li a:hover::after {
 }
 
 /* Inputs & Textarea */
-#contact input,
-#contact textarea {
+#contactForm input,
+#contactForm textarea {
   width: 100%;
   padding: calc(var(--spacing-unit) * 0.9);
   margin-bottom: calc(var(--spacing-unit) * 1.6);
@@ -680,8 +680,8 @@ header nav ul li a:hover::after {
 }
 
 /* Focus Effects */
-#contact input:focus,
-#contact textarea:focus {
+#contactForm input:focus,
+#contactForm textarea:focus {
   outline: none;
   border-color: var(--primary-color);
   box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
@@ -689,7 +689,7 @@ header nav ul li a:hover::after {
 }
 
 /* Textarea */
-#contact textarea {
+#contactForm textarea {
   resize: vertical;
   min-height: 160px;
   background-color: var(--background-color);
@@ -703,7 +703,7 @@ header nav ul li a:hover::after {
 
 /* Submit Button */
 /* Submit Button – modern & subtle */
-#contact button {
+#contactForm button {
   width: 100%;
   padding: 0.85rem;
   background-color: var(--primary-color);
@@ -717,14 +717,14 @@ header nav ul li a:hover::after {
 }
 
 /* Button Hover */
-#contact button:hover {
+#contactForm button:hover {
   background-color: transparent;
   color: var(--primary-color);
   transform: translateY(-1px);
 }
 
 /* Button Active */
-#contact button:active {
+#contactForm button:active {
   transform: translateY(0);
 }
 
@@ -732,26 +732,26 @@ header nav ul li a:hover::after {
 
 /* Tablets */
 @media (max-width: 768px) {
-  #contact form {
+  #contactForm form {
     padding: calc(var(--spacing-unit) * 2);
   }
 
-  #contact h2 {
+  #contactForm h2 {
     font-size: 2rem;
   }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-  #contact {
+  #contactForm {
     padding: calc(var(--spacing-unit) * 4) 1rem;
   }
 
-  #contact h2 {
+  #contactForm h2 {
     font-size: 1.8rem;
   }
 
-  #contact p {
+  #contactForm p {
     font-size: 0.95rem;
   }
 }
